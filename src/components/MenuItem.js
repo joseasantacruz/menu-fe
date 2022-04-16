@@ -12,10 +12,9 @@ function MenuItem(prop) {
       console.log(e);
       prop.handleEdit(prop.name);
   }
-
   return (
     <Col  xs={24} sm={12} xl={8} >
-      <Card hoverable  cover={<img alt="example" src={prop.image_url} />}  extra={<div><Popconfirm
+      <Card hoverable  cover={<img alt="no image" src={prop.image_url} />}  extra={<div><Popconfirm
             title="Are you sure to delete this MenuItem?"
             onConfirm={del_confirm}
             okText="Yes"

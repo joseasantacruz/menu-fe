@@ -10,7 +10,8 @@ https://drive.google.com/file/d/1TWA302YYyMMgmFS0DSnVRAP7K2lGVQE4/view
 
 
 ### Assumptions
-1.  The names of the MenuItems cannot be repeated, the elimination is done by name.
+1. The names of the MenuItems cannot be repeated, the elimination is done by name.
+2. As a test, 3 MenuItems are created for each menu. 
 
 ### Prerequisites
 1. Node.js
